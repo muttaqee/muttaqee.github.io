@@ -39,4 +39,5 @@ a:hover {
   background-color: rgb(100, 149, 237, 0.65);
   padding: 1em, 1em, 1em, 1em;
   margin: 0em, 1em, 0em, 1em;
+  border: 1px solid chartreuse;
 }
