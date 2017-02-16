@@ -21,10 +21,9 @@ a, a:visited, a:active {
 }
 
 a:hover {
-  text-shadow: 0px 1px 6px #000000;
-  color: aliceblue;
+  color: #ffffff;
 }
 
 #golden-ratio-space {
-  height: 0.382vh;
+  min-height: 0.382vh;
 }
