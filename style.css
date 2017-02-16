@@ -25,6 +25,5 @@ a:hover {
 }
 
 #golden-ratio-space {
-  min-height: 500px;
-/*   min-height: 0.382vh; */
+  min-height: 0.382vh;
 }
