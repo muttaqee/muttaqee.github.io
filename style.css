@@ -36,7 +36,7 @@ a:hover {
 }
 
 #text-space {
-  background-color: rgba(100, 149, 237, 0.38);
-  padding: 1em, 1em, 1em, 1em;
-  margin: 0em, 1em, 0em, 1em;
+  background-color: rgba(256, 256, 256, 0.38);
+  padding: 4em, 2em, 2em, 4em;
+  margin: 0em, 4em, 0em, 4em;
 }
