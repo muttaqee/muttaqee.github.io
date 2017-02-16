@@ -1,10 +1,10 @@
 body {
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
   text-align: center;
-  font-family: Century;
+  font-family: Century, Verdana, Arial;
   color: #ffffff;
   font-size: 2em;
-  background-image: url("");
+  background-image: url("t8giol3_sdi-frances-gunn.jpg");
 }
 
 h1, h2, h3, h4, h5, h6 {
