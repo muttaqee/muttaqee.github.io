@@ -26,4 +26,6 @@ a:hover {
 
 #golden-ratio-space {
   min-height: 0.382vh;
+  background-color: cornflowerblue;
+  border: 1px solid chartreuse;
 }
