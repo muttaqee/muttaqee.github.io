@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("h1").animate({
+  $("h1, p").animate({
     opacity: 1.0
-  }, 2000, function() {});
+  }, 800, function() {});
 });
