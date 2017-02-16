@@ -4,6 +4,7 @@ body {
   font-family: Century;
   color: #ffffff;
   font-size: 2em;
+  background-image: url("");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,9 +17,9 @@ p {
 
 a, a:visited, a:active {
   text-decoration: none;
-  color: deepskyblue;
+  color: lightskyblue;
 }
 
 a:hover {
- color: #ffffff;
+  text-shadow: 0px 1px 5px #000000;
 }
