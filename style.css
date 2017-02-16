@@ -30,6 +30,8 @@ a:hover {
 }
 
 #golden-ratio-space {
+  padding: 0px;
+  margin: 0px;
   min-height: 38%;
 }
 
