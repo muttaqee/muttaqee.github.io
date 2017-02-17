@@ -72,19 +72,23 @@ table, th, tr, td {
   box-shadow: 0px 0px 2px #000000;
 }
 
+.overlay-block[id="header"] {
+  padding: 0%, 0%, 0%, 5%;
+}
+
 .overlay-block th {
-  width: 18%;
-  margin-right: 0%;
+  width: 15%;
+  padding-right: 3%;
 }
 
 .overlay-block td {
   vertical-align: top;
-  width: 18%;
-  margin-right: 0%;
+  width: 15%;
+  padding-right: 3%;
 }
 
 .overlay-block th:last-child, #overlay-block td:last-child {
-  margin-right: 0%;
+  padding-right: 0%;
 }
 
 .overlay-block > p {
