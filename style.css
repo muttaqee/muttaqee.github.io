@@ -15,10 +15,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'IM Fell Great Primer', serif;
   text-shadow: 0px 1px 4px #000000;
 }
 
 p {
+  font-family: 'Crimson Text', serif;
   text-shadow: 0px 1px 4px #000000;
   opacity: 0;
 }
