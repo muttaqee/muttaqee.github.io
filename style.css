@@ -8,7 +8,6 @@ body {
   height: 100%;
   margin: 0px;
   padding: 0px;
-  height: 100%;
   background-color: cornflowerblue;
   text-align: center;
   font-family: Calibri, Georgia, Times;
@@ -83,13 +82,13 @@ table, th, tr, td {
 }
 
 .overlay-block[id="main"] th, .overlay-block[id="main"] td {
-  padding: 8px;
+  padding: 4px;
   border-radius: 8px;
 }
 
-.overlay-block[id="main"] th:hover, .overlay-block[id="main"] td:hover {
+/* .overlay-block[id="main"] th:hover, .overlay-block[id="main"] td:hover {
   background-color: rgba(256, 256, 256, 0.05);
-}
+} */
 
 .overlay-block th {
   width: 15%;
