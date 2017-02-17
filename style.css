@@ -69,11 +69,16 @@ table, th, tr, td {
 }
 
 .overlay-block[id="header"] {
+  font-size: 1em;
+  margin: 10px;
+  padding: 10px;
 /*   padding: 32px, 5%, 16px, 5%; */
 }
 
 .overlay-block h2 {
   padding: 0%;
+  margin: 10px;
+  padding: 10px;
 /*   margin: 16px, 5%, 16px, 5%; */
 }
 
