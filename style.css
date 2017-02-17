@@ -47,13 +47,17 @@ a:hover {
 
 #overlay-block {
   display: block;
-  font-size: 1em;
+  font-size: 1.25em;
   text-align: left;
-  padding-left: 100px;
-  padding-right: 100px;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 64px;
+  box-shadow: 0px 0px 4px #000000;
 }
 
-#overlay-block > h2:first-child {
-  margin: auto;
+#overlay-block > h2 {
+  text-align: center;
+}
+
+#overlay-block > p {
+  margin-left: 32px;
 }
