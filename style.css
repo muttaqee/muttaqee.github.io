@@ -15,12 +15,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Sans-Serif;
+  font-family: Calibri, Times, Sans-Serif;
   text-shadow: 0px 1px 4px #000000;
 }
 
 p {
-  font-family: 'Lato', Sans-Serif;
+  font-family: Calibri, 'Lato', Sans-Serif;
   text-shadow: 0px 1px 4px #000000;
   opacity: 0;
 }
