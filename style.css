@@ -45,8 +45,13 @@ a:hover {
   height: 38%;
 }
 
+#banner {
+  font-size: 2em;
+}
+
 #overlay-block {
   display: block;
+  font-family: Calibri, Georgia, Sans-Serif;
   font-size: 1.25em;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.65);
