@@ -72,7 +72,7 @@ table, th, tr, td {
 }
 
 .overlay-block[id="header"] {
-  padding: 0%, 0%, 0%, 5%;
+  padding-left: 5%;
 }
 
 .overlay-block[id="main"] {
