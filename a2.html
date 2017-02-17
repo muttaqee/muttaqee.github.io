@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Conway's Game of Life</title>
+        <link href="a2.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="jquery-1.11.3.js"></script>
+        <script src="a2.js"></script>
+    </head>
+    
+    <body>
+        <!-- inputs: main buttons, settings, and rules -->
+        <form id="control_panel">
+            <h1>Conway's Game of Life</h1>
+            <h2>Muttaqee</h2>
+            
+            <!-- buttons -->
+            <fieldset>
+                <legend>Controls</legend>
+                <div id="buttons">
+                    <button id="start" type="button" name="start" value="Start">Start</button>
+                    <button id="stop" type="button" name="stop" value="Stop">Stop</button>
+                    <button id="step" type="button" name="step" value="Step">Step</button>
+                    <button id="randomize" type="button" name="randomize" value="Randomize">Randomize</button>
+                    <button id="reset" type="button" name="reset" value="Reset">Reset</button>
+                </div>
+                
+                <label for="randomize_density">Randomize density: <div id="randomize_density_display">0.5</div></label>
+                <input id="randomize_density" type="range" name="randomize_density" value="50" min="10" max="90" step="10">
+                
+                <label for="step_speed">Step interval (ms): <div id="step_interval_display">500</div></label>
+                <input id="step_speed" type="range" name="step_speed" value="500" min="0" max="1000" step="5">
+            </fieldset>
+            
+            <!-- settings: size, step, and edge evaluation -->
+            <fieldset>
+                <legend>Grid Settings</legend>
+                
+                <label for="grid_size">Size: <div id="grid_size_display">20</div></label>
+                <input id="grid_size" type="range" name="grid_size" value="20" min="20" max="200" step="1">
+                
+                <div id="edge_eval_label">Edge evaluation</div>
+                
+                <label for="edge_eval_dead">Dead</label>
+                <input id="edge_eval_dead" type="radio" name="edge_eval" value="dead" checked>
+                
+                <label for="edge_eval_live">Live</label>
+                <input id="edge_eval_live" type="radio" name="edge_eval" value="live">
+                
+                <label for="edge_eval_toroidal">Toroidal</label>
+                <input id="edge_eval_toroidal" type="radio" name="edge_eval" value="toroidal">
+            </fieldset>
+            
+            <!-- rules --> <!-- TODO -->
+            <fieldset>
+                <legend>Neighbor Rules</legend>
+                
+                <label for="r">Radius: <div id="r_display">1</div></label>
+                <input id="r" type="number" name="r" value="1" min="1" max="10" step="1">
+                
+                <label for="l">Loneliness threshold: <div id="l_display">2</div></label>
+                <input id="l" type="range" name="l" value="2" min="0" max="3" step="1">
+                
+                <label for="o">Overpopulation threshold: <div id="o_display">3</div></label>
+                <input id="o" type="range" name="o" value="3" min="0" max="3" step="1">
+                
+                <label for="g_min">Generation minimum: <div id="g_min_display">3</div></label>
+                <input id="g_min" type="range" name="g_min" value="1" min="0" max="3" step="1">
+                
+                <label for="">Generation maximum: <div id="g_max_display">3</div></label>
+                <input id="g_max" type="range" name="g_max" value="1" min="0" max="3" step="1">
+            </fieldset>
+        </form>
+        
+        <!-- grid -->
+        <div id="grid">
+            <table></table>
+        </div>
+        
+    </body>
+</html>
