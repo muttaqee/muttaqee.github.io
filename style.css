@@ -63,7 +63,7 @@ table, th, tr, td {
   margin-bottom: 128px;
 }
 
-#overlay-block {
+.overlay-block {
   display: block;
   font-size: 1.2em;
   text-align: left;
@@ -72,21 +72,21 @@ table, th, tr, td {
   box-shadow: 0px 0px 2px #000000;
 }
 
-#overlay-block th {
+.overlay-block th {
   width: 18%;
   margin-right: 0%;
 }
 
-#overlay-block td {
+.overlay-block td {
   vertical-align: top;
   width: 18%;
   margin-right: 0%;
 }
 
-#overlay-block th:last-child, #overlay-block td:last-child {
+.overlay-block th:last-child, #overlay-block td:last-child {
   margin-right: 0%;
 }
 
-#overlay-block > p {
-  margin-left: 32px;
+.overlay-block > p {
+  margin-left: 5%;
 }
