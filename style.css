@@ -74,7 +74,7 @@ table, th, tr, td {
 }
 
 .overlay-block h2 {
-/*   padding: 0%; */
+  padding: 0%;
 /*   margin: 16px, 5%, 16px, 5%; */
 }
 
@@ -83,12 +83,12 @@ table, th, tr, td {
 }
 
 .overlay-block[id="main"] th, .overlay-block[id="main"] td {
-  padding: 4px;
+  padding: 8px;
   border-radius: 8px;
 }
 
 .overlay-block[id="main"] th:hover, .overlay-block[id="main"] td:hover {
-  background-color: rgba(256, 256, 256, 0.10);
+  background-color: rgba(256, 256, 256, 0.05);
 }
 
 .overlay-block th {
