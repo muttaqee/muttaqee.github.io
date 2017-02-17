@@ -1,10 +1,17 @@
+
+
 html {
   height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   height: 100%;
-  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: cornflowerblue;
   text-align: center;
   font-family: Calibri, Georgia, Times;
   color: #ffffff;
@@ -14,19 +21,18 @@ body {
   background-attachment: fixed;
 }
 
-h1:first-child {
+#banner {
   font-size: 2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Calibri, Times, Sans-Serif;
+  font-family: Calibri, Arial, Sans-Serif;
   text-shadow: 0px 1px 4px #000000;
 }
 
 p {
   font-family: Calibri, 'Lato', Sans-Serif;
   text-shadow: 0px 1px 4px #000000;
-  opacity: 0;
 }
 
 a, a:visited, a:active {
@@ -38,15 +44,22 @@ a:hover {
   color: #ffffff;
 }
 
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+table, th, tr, td {
+  margin: 0px;
+  padding: 0px;
+}
+
 #golden-ratio-space {
   padding: 0px;
   margin: 0px;
   min-height: 38%;
   height: 38%;
-}
-
-#banner {
-  font-size: 2em;
 }
 
 #overlay-block {
