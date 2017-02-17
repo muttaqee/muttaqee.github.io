@@ -73,18 +73,18 @@ table, th, tr, td {
 }
 
 #overlay-block th {
-  width: 16%;
-  margin-right: 2%;
+  width: 18%;
+  margin-right: 0%;
 }
 
 #overlay-block td {
   vertical-align: top;
-  width: 16%;
-  margin-right: 2%;
+  width: 18%;
+  margin-right: 0%;
 }
 
 #overlay-block th:last-child, #overlay-block td:last-child {
-  margin-right: 0px;
+  margin-right: 0%;
 }
 
 #overlay-block > p {
