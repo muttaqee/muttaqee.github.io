@@ -67,21 +67,17 @@ table, th, tr, td {
   font-size: 1.2em;
   text-align: left;
   background-color: rgba(0, 0, 0, 0.65);
-  padding: 64px;
+  padding: 5%;
   box-shadow: 0px 0px 4px #000000;
 }
 
-#overlay-block > h2 {
-  text-align: center;
+#overlay-block th {
+  width: 20%;
 }
 
 #overlay-block td {
   vertical-align: top;
-  padding-right: 32px;
-}
-
-#overlay-block td:last-child {
-  padding-right: 0px;
+  width: 20%;
 }
 
 #overlay-block > p {
