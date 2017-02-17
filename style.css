@@ -75,11 +75,15 @@ table, th, tr, td {
 
 .overlay-block h2 {
   padding: 0%;
-  margin: 0%;
+  margin: 16px, 5%, 16px, 5%;
 }
 
 .overlay-block[id="main"] {
   padding: 5%;
+}
+
+.overlay-block[id="main"] li:hover, .overlay-block[id="main"] h3:hover {
+  background-color: rgba(256, 256, 256, 0.15);
 }
 
 .overlay-block th {
