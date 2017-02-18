@@ -96,13 +96,13 @@ table, th, tr, td {
 } */
 
 .overlay-block th {
-  width: 15%;
+  width: 20%;
   padding-right: 3%;
 }
 
 .overlay-block td {
   vertical-align: top;
-  width: 15%;
+  width: 20%;
   padding-right: 3%;
 }
 
