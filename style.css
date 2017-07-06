@@ -51,7 +51,7 @@ table, th, tr, td {
 
 #header {
   overflow: hidden;
-  margin-bottom: 64=128px;
+  margin-bottom: 64px;
 }
 
 #name {
@@ -63,6 +63,7 @@ table, th, tr, td {
 #links {
   float: right;
   width: 45%;
+  text-align: right;
 }
 
 #golden-ratio-space {
@@ -76,8 +77,8 @@ table, th, tr, td {
   border-radius: 50%;
   /* border: 2px solid white; */
   box-shadow: 0px 3px 6px 0px black;
-  width: 192px;
-  height: 192px;
+  width: 128px;
+  height: 128px;
 }
 
 #banner {
