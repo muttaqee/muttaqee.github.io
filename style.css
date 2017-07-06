@@ -52,6 +52,8 @@ table, th, tr, td {
 #header {
   overflow: hidden;
   margin-bottom: 64px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 #name {
