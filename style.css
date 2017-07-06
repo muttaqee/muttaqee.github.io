@@ -49,6 +49,20 @@ table, th, tr, td {
   padding: 0px;
 }
 
+#header {
+  margin-bottom: 128px;
+}
+
+#name {
+  float: left;
+  width: 40%;
+}
+
+#links {
+  float: right;
+  width: 40%;
+}
+
 #golden-ratio-space {
   padding: 0px;
   margin: 0px;
@@ -56,9 +70,16 @@ table, th, tr, td {
   height: 38%;
 }
 
+#profilepic {
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
 #banner {
-  font-size: 2em;
+  font-size: 1.8em;
+  margin: auto;
   margin-bottom: 128px;
+  width: 80%;
 }
 
 .overlay-block {
