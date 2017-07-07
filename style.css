@@ -84,11 +84,12 @@ table, th, tr, td {
 }
 
 .panel {
-  background-image: url("downtown_pittsburgh.png");
+  background-image: black url("downtown_pittsburgh.png") no-repeat bottom;
+  background-attachment: fixed;
   font-size: 1.8em;
   margin: auto;
-  padding-top: 128px;
-  padding-bottom: 128px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 #banner {
