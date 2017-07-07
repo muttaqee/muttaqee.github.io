@@ -87,6 +87,7 @@ table, th, tr, td {
   background-color: black;
   background-image: url("downtown_pittsburgh.png");
   background-attachment: fixed;
+  background-position: center bottom;
   font-size: 1.8em;
   margin: auto;
 }
