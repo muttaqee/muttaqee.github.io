@@ -87,6 +87,8 @@ table, th, tr, td {
   background-image: url("downtown_pittsburgh.png");
   font-size: 1.8em;
   margin: auto;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
 
 #banner {
