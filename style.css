@@ -90,6 +90,7 @@ table, th, tr, td {
   background-position: center bottom;
   font-size: 1.8em;
   margin: auto;
+  padding-bottom: 64px;
 }
 
 #banner {
