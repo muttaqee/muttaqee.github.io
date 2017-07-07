@@ -54,7 +54,6 @@ table, th, tr, td {
   margin-bottom: 64px;
   padding-left: 2em;
   padding-right: 2em;
-  position: fixed;
 }
 
 #name {
