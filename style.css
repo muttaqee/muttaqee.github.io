@@ -84,7 +84,8 @@ table, th, tr, td {
 }
 
 .panel {
-  background-image: black url("downtown_pittsburgh.png") no-repeat bottom;
+  background-color: black;
+  background-image: url("downtown_pittsburgh.png");
   background-attachment: fixed;
   font-size: 1.8em;
   margin: auto;
