@@ -83,6 +83,12 @@ table, th, tr, td {
   height: 192x;
 }
 
+.panel {
+  background-image: url("downtown_pittsburgh.png");
+  font-size: 1.8em;
+  margin: auto;
+}
+
 #banner {
   font-size: 1.8em;
   margin: auto;
